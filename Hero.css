@@ -1,7 +1,49 @@
 body{
 	margin: 0;
+	font-family: poppins,arial,sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
 	background-color: darkgray;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+header h1{ 
+	color: white 
+}
+
+header img{
+	border-radius: 150px;
+	width: 800px;
+	border: 12px solid black;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+main img{
+	max-width: 100%;
+}
+h2{
+	font-size: 35px;
+	color: darkblue;
+	margin: 40px 0 16px;
+}
+a{
+	color: darkblue;
+}
+a:hover{
+	color: darkgray;
+}
+footer{
+	background-color: darkgray;
+	text-align: center;
+	color: ghostwhite;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
